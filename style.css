@@ -6,6 +6,16 @@
     min-width: 1000px;
     min-height: 1000px;
 }
+.tracking-in-expand h78{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Nabla", system-ui;
+    font-size: 30px;
+    justify-content: center;
+    background: #1e2326;
+    animation-duration: 2s;
+}
 
 .github .hola i{
     transition: .5s, color .10s;

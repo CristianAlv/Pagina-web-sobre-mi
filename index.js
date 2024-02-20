@@ -1,4 +1,8 @@
-alert("Hola ingresa tu nombre: ");
+
+let mi_nombre = prompt("Por favor ingresa tu nombre de usuario: ");
+localStorage.setItem('nombre', mi_nombre);
+mititulo.textContent = 'Hola ' + mi_nombre + ', bienvenido a mi pagina web';
+
 const navigation = document.querySelector('.primary-navigation');
 
 //const navigationHeight = navigation.offsetHeight;
