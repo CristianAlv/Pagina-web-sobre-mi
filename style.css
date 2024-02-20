@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+.in-flex{
+    flex:1;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+.github .hola i{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.transUp:hover{
+    transform: translatey(-20px);
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #1CB698;
+}
+.nav-responsive{
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+    font-family: 'Roboto', sans-serif;
+
+    background: linear-gradient(318deg, #ff0062, #ffff00, #00ff00, #00ffff, #0000ff);
+    background-size: 1000% 1000%;
+    -webkit-animation: Coolgradient 41s linear infinite;
+    -moz-animation: Coolgradient 41s linear infinite;
+    -o-animation: Coolgradient 41s linear infinite;
+    animation: Coolgradient 41s linear infinite;
+} 
+
+a:hover{
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 7rem);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+html{
+    background: linear-gradient(318deg, #ff0062, #ffff00, #00ff00, #00ffff, #0000ff);
+    background-size: 1000% 1000%;
+    -webkit-animation: Coolgradient 41s linear infinite;
+    -moz-animation: Coolgradient 41s linear infinite;
+    -o-animation: Coolgradient 41s linear infinite;
+    animation: Coolgradient 41s linear infinite;
+    
+  }
+  
+  @-webkit-keyframes Coolgradient {
+      0%{background-position:5% 0%}
+      50%{background-position:96% 100%}
+      100%{background-position:5% 0%}
+  }
+  @-moz-keyframes Coolgradient {
+      0%{background-position:5% 0%}
+      50%{background-position:96% 100%}
+      100%{background-position:5% 0%}
+  }
+  @-o-keyframes Coolgradient {
+      0%{background-position:5% 0%}
+      50%{background-position:96% 100%}
+      100%{background-position:5% 0%}
+  }
+  @keyframes Coolgradient { 
+      0%{background-position:5% 0%}
+      50%{background-position:96% 100%}
+      100%{background-position:5% 0%}
+  }
+
+h2{
+    padding: 10px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    display: inline-flex;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 35px;
+    animation-duration: 2s;        
+}
+                  
+.tracking-in-expand {
+        animation: tracking-in-expand 0.4s linear both;
+    }
+
+@keyframes tracking-in-expand {
+        0% {
+            letter-spacing: -.2em;
+            opacity: 0;
+        }
+        40% {
+            opacity: .6;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+h4{
+    padding: 10px;
+    font-family: 'Cinzel', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    font-size: 40px;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+h4:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+    -webkit-transform: scale3d(1.5, 1.5, 0.3);
+    -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+              
+
+h3{
+    padding: 20px;
+    display: inline-flex;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 35px;   
+}
+
+.shadow-drop-center {
+    animation: shadow-drop-center 0.4s linear both;
+}
+
+/* Regla de animación */
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 transparent;
+    }
+    100% {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.55);
+    }
+}
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(3p.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+.inicio .contenido-banner{
+    padding: 10px;
+    background-color: #1e2326;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    background: linear-gradient(318deg, #ff0062, #00ff48, #a02f96, #d12828, #0303f4);
+    background-size: 1000% 1000%;
+    -webkit-animation: Coolgradient 41s linear infinite;
+    -moz-animation: Coolgradient 41s linear infinite;
+    -o-animation: Coolgradient 41s linear infinite;
+    animation: Coolgradient 41s linear infinite;
+
+}
+.inicio .contenido-banner .shadow-drop-center{
+    margin-top: 40px;
+    border: 10px solid darkred;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h22{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h33{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: blue;
+}
+
+.sobre-mi h12{
+    display: flex;
+    justify-content: left; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    text-align:center;
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+    padding: 30px;
+    animation-duration: 3s;
+}
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
+
+}
+
+.infop{
+    padding: 20px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+    background: linear-gradient(to top, rgba(51, 59, 64, 0.8), rgba(30,35,38,1)),
+    url(lenguaje-min.jpg);
+
+}
+.infop h8{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 30px;
+    color: cadetblue;
+}
+.infop li{
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#toggleButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+
+    border-radius: 10px;
+}
+#toggleButton:hover{
+    background-color: rgb(51, 51, 112);
+}
+
+#toggleIcon {
+    margin-right: 20px;
+}
+
+#toggleText {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+
+}
+.dark-mode ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    -moz-transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+}
+
+.dark-mode h4:after{
+    background-color: #fff;
+}
+.dark-mode h4:hover{
+    background-color: #fff;
+}
+
+.dark-mode html{
+    color: white;
+}
+
+
+
+.contacto{
+    background-image: url(mapa-global.jpg);
+    background-color: #1e2326;
+    color: #fff;
+    padding: 10px 0;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    height: 210px;
+    padding: 0px;
+    border-radius: 0px;
+}
+.contacto .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    height: 120px;
+    padding: 15px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.contacto .col .info ul{
+    list-style: none;
+}
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+}
+.contacto .col .info ul li i{
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
+footer{
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+
+.skills{
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    background: linear-gradient(to top, rgba(73, 73, 73, 0.8), rgb(80, 93, 100));
+    opacity: 10;
+
+}
+
+.skills video {
+    background: linear-gradient(to top, gray, rgb(39, 30, 30)), url(chill.mp4);
+    background-size: cover;
+    opacity: 0.2;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    z-index: 0;
+    padding-top: 0px;
+    z-index: 3;
+    width: 1600px;
+    height: 630px;
+    position: absolute;
+
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 76%;}
+}
+
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 83%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+
+.skills .skill .proyect{
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+@keyframes proyect {
+    0%{width: 0%;}
+    100%{width: 94%;}
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width:1300px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+    main{
+        display: block;
+        right: 0;
+        top: 75px;
+        overflow-x: hidden;
+    }
+
+    .inicio{
+        width: 100%;
+        display: flex;
+    }
+    .contenido-banner{
+        position: center;
+        padding: 0px;
+
+    }
+    .skills video {
+        width: 100%;
+        height: 620px;
+    }
+    .inicio .contenido-banner{
+        padding: 20px;
+        background-color: #1e2326;
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        border-radius: 40px;
+        background: linear-gradient(318deg, #ff0062, #00ff48, #a02f96, #d12828, #0303f4);
+        background-size: 1000% 1000%;
+        -webkit-animation: Coolgradient 41s linear infinite;
+        -moz-animation: Coolgradient 41s linear infinite;
+        -o-animation: Coolgradient 41s linear infinite;
+        animation: Coolgradient 41s linear infinite;
+
+    }
+}
+@media screen and (max-width:500px){
+    .skills .fila{
+        display: block;
+    }
+
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+    .inicio .contenido-banner{
+        padding: 20px;
+        background-color: #1e2326;
+        margin: auto;
+        text-align: center;
+        border-radius: 40px;
+        background: linear-gradient(318deg, #ff0062, #00ff48, #a02f96, #d12828, #0303f4);
+        background-size: 1000% 1000%;
+        -webkit-animation: Coolgradient 41s linear infinite;
+        -moz-animation: Coolgradient 41s linear infinite;
+        -o-animation: Coolgradient 41s linear infinite;
+        animation: Coolgradient 41s linear infinite;
+    }
+    .skills video {
+        width: 100%;
+        height: 875px;
+    }
+    .inicio{
+        background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+        url(3p.jpg);
+        background-size: cover;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        height: 600px;
+    }
+}
+
+
