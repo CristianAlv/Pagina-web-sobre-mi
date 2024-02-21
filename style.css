@@ -133,9 +133,9 @@ h2{
     padding: 10px;
     font-family: 'Lucida Sans', Arial, sans-serif;
     display: inline-flex;
-    text-align: center;
+    text-align: justify;
     font-family: 'Protest Strike', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     animation-duration: 2s;        
 }
                   
@@ -178,9 +178,9 @@ h4:hover{
 h3{
     padding: 20px;
     display: inline-flex;
-    text-align: center;
+    text-align: justify;
     font-family: 'Protest Strike', sans-serif;
-    font-size: 35px;   
+    font-size: 20px;   
 }
 
 .shadow-drop-center {
