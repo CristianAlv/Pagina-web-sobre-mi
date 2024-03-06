@@ -1,7 +1,16 @@
 
 let mi_nombre = prompt("Por favor ingresa tu nombre de usuario: ");
+    if (mi_nombre == null || mi_nombre == ""){
+        do{
+            mi_nombre = prompt("Por favor, ingresa tu dato (este campo es obligatorio):");
+
+            } while (mi_nombre === null || mi_nombre === "");
+}
+
 localStorage.setItem('nombre', mi_nombre);
+var mititulo = document.getElementById('mititulo');
 mititulo.textContent = 'Hola ' + mi_nombre + ', bienvenido a mi pagina web';
+
 
 const navigation = document.querySelector('.primary-navigation');
 
